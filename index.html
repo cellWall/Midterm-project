@@ -1,0 +1,71 @@
+
+  <!DOCTYPE html>
+  <html>
+  
+  <head>
+      <!--Import Google Icon Font-->
+      <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+      <!-- Compiled and minified CSS -->
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+  
+      <!-- Compiled and minified JavaScript -->
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+      <link rel="stylesheet" href="styles.css">
+      <script src="main.js"></script>
+  
+  
+  
+  
+  
+      <!--Let browser know website is optimized for mobile-->
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  </head>
+  
+  <body>
+      <nav>
+          <div class="nav-wrapper purple lighten-1">
+              <a href="#" class="brand-logo">Food Additive Halal Check</a>
+              <ul id="nav-mobile" class="right hide-on-med-and-down">
+                  <li><a href="sass.html">Home</a></li>
+                  <li><a href="#second-section">By Pages</a></li>
+              </ul>
+          </div>
+      </nav>
+      <div id="home-section">
+          <div class="center-align">
+              <h1>Food Additive Halal Check</h1>
+              <h5>This is a simple web app that helps you check whether a food additive is halal</h5>
+              <br />
+              <a class="waves-effect waves-light btn-large purple lighten-1" href="#second-section"> food additive search</a>
+          </div>
+      </div>
+      <div id="second-section">
+          <div class="center-align">
+              <h1>Food Additive Search</h1>
+              <h5>Search the food addtive and find out whether it is halal or not!</h5>
+              <div class="row">
+                  <div class="input-field col s12">
+                      <input id="emulsifierName" type="text"placeholder="E200, E789.....">
+                      <label for="emulsifierName">Food Additive</label>
+                      <span class="helper-text" id="pages" data-error="wrong" data-success="right">Enter the food additive that you want to check</span>
+                  </div>
+              </div>
+              <button class="btn-large waves-effect waves-light purple lighten-1" type="submit" name="action" onclick="searchEmulsifier()"> search
+                  <i class="material-icons right">search</i>
+              </button>
+              <br/>
+                  <div class="card purple darken-4">
+                      <div class="card-content white-text">
+                          <span id="answer" class="card-title">Your results will display here after you click the 'search' button.</span>
+                      </div>
+                  </div>
+   
+  
+          </div>
+      </div>
+      
+      <!--JavaScript at end of body for optimized loading-->
+      <script type="text/javascript" src="js/materialize.min.js"></script>
+  </body>
+  
+  </html>

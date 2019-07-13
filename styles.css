@@ -1,0 +1,13 @@
+.center-align {
+    padding: 125px;
+  }
+  
+#home-section {
+      background-color: rgb(248, 183, 248);
+      height: 100vh;
+  }
+
+
+  html {
+    scroll-behavior: smooth;
+  }
